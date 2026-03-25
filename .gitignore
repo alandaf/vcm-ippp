@@ -1,0 +1,7 @@
+config/credentials.php
+config/credentials-REMOTE.php
+*.zip
+*.sql
+*.tar.gz
+public/errors.log
+.DS_Store
