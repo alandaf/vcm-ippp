@@ -1,4 +1,10 @@
-<?php require_once __DIR__ . '/auth.php'; ?>
+<?php
+/**
+ * Plataforma VCM - Vinculación con el Medio
+ * @author Andrés Landa Figueroa <andres.landa.f@gmail.com>
+ * @version 2.1.0-prod
+ */
+require_once __DIR__ . '/auth.php'; ?>
 <?php require_login(); ?>
 <?php if(($_SESSION['rol']??'')==='observador'){ header("Location: index.php"); exit; } ?>
 

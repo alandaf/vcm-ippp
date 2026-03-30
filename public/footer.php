@@ -17,7 +17,7 @@
   </div>
 
   <div class="footer-copy">
-    © <?= date('Y') ?> Desarrollado por <strong>Andrés Landa Figueroa</strong> · Todos los derechos reservados.
+    © <?= date('Y') ?> Desarrollado por <strong>Andrés Landa Figueroa</strong> · <a href="mailto:andres.landa.f@gmail.com" style="color:#facc15; text-decoration:none;">andres.landa.f@gmail.com</a> · Todos los derechos reservados.
   </div>
 </footer>
 
