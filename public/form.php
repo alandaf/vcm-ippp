@@ -47,7 +47,7 @@ if ($_SERVER['REQUEST_METHOD']==='POST') {
     $rep_act_inst = trim($_POST['representante_actividad_inst'] ?? '');
     $rep_act_contra = trim($_POST['representante_actividad_contra'] ?? '');
     $ini = $_POST['fecha_inicio'] ?? '';
-    $fin = $_POST['fecha_fin'] ?? null;
+    $fin = !empty($_POST['fecha_fin']) ? $_POST['fecha_fin'] : null;
     $dur = isset($_POST['duracion_horas']) ? (int)$_POST['duracion_horas'] : 0;
     $lugar = trim($_POST['lugar'] ?? '');
     $objetivo = trim($_POST['objetivo'] ?? '');

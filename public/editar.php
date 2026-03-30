@@ -51,8 +51,8 @@ if($_SERVER['REQUEST_METHOD']==='POST' && !isset($_POST['del_evidencia'])){
   $tipo=isset($_POST['es_proyecto'])?'Proyecto':'Actividad';
   $institucion=trim($_POST['institucion_text']??'');
   $carrera=trim($_POST['carrera_ciclo']??'');
-  $ini=$_POST['fecha_inicio']??'';
-  $fin=$_POST['fecha_fin']??null;
+  $ini = $_POST['fecha_inicio'] ?? '';
+  $fin = !empty($_POST['fecha_fin']) ? $_POST['fecha_fin'] : null;
   $dur=(int)($_POST['duracion_horas']??1);
   $objetivo=trim($_POST['objetivo']??'');
   $desc=trim($_POST['descripcion']??'');
