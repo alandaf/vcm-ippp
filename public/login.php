@@ -1,4 +1,9 @@
 <?php
+/**
+ * Plataforma VCM - Vinculación con el Medio
+ * @author Andrés Landa Figueroa <andres.landa.f@gmail.com>
+ * @version 2.1.0-prod
+ */
 declare(strict_types=1);
 session_name('vcm_sess');
 session_set_cookie_params([
@@ -146,7 +151,7 @@ $csrf = $_SESSION['csrf'];
                     </form>
 
                     <div class="text-center mt-5 pt-4 border-top">
-                        <small class="text-muted" style="font-size: 0.75rem;">&copy; <?= date('Y') ?> Instituto Profesional Piloto Pardo.<br>Todos los derechos reservados.</small>
+                        <small class="text-muted" style="font-size: 0.75rem;">&copy; <?= date('Y') ?> Instituto Profesional Piloto Pardo.<br>Desarrollado por <a href="mailto:andres.landa.f@gmail.com" class="text-decoration-none text-muted fw-bold">Andrés Landa F.</a></small>
                     </div>
                 </div>
             </div>
