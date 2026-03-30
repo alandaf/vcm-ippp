@@ -151,7 +151,7 @@ $csrf = $_SESSION['csrf'];
                     </form>
 
                     <div class="text-center mt-5 pt-4 border-top">
-                        <small class="text-muted" style="font-size: 0.75rem;">&copy; <?= date('Y') ?> Instituto Profesional Piloto Pardo.<br>Desarrollado por <a href="mailto:andres.landa.f@gmail.com" class="text-decoration-none text-muted fw-bold">Andrés Landa F.</a></small>
+                        <small class="text-muted" style="font-size: 0.75rem;">&copy; <?= date('Y') ?> Instituto Profesional Piloto Pardo.<br>Desarrollado por <a href="mailto:andres.landa.f@gmail.com" class="text-decoration-none text-muted fw-bold">Andrés Landa Figueroa</a></small>
                     </div>
                 </div>
             </div>
